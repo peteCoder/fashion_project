@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media screen and (max-width: 640px) {
+    .center-item-hero {
+        position: absolute;
+        top: 150%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .center-absolute-text {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.hero-linear-gradient {
+    background: linear-gradient(90deg, #96E9FB 0%, #ABECD6 100%);
+}
+
+.features-linear-gradient {
+    
+}
